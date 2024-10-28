@@ -14,6 +14,10 @@ export class AppComponent {
 
   // event-binding
   texto: string = 'esto es even-binding'
+
+  // two-data-binding
+  textInput: string = 'probando two-way-data-binding'
+
   constructor() {
     // interpolation
     setTimeout(() => {
